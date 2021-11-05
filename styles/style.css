@@ -3,58 +3,108 @@ font-family: 'Roboto', sans-serif;
 
 */
 
+:root {
+  --primary-color: #3d0240;
+  --secondary-color: #b7b7b7;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
 body {
   font-family: "Roboto", sans-serif;
-  margin-bottom: 50px;
+  height: 100%;
 }
 
 h1 {
-  font-size: 130px;
+  font-size: 100px;
 }
 
-h1,
-h2 {
-  font-family: "Playfair Display", serif;
-  color: #fff;
+.hero-image {
+  background: url(/images/main-image.png);
+  height: 80%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
   text-align: center;
-}
-
-.hero {
-  background: url(/images/main-image.png) no-repeat;
-  background-size: 100%;
-
-  padding-top: 10%;
-  padding-bottom: 10%;
+  color: white;
+  width: 100%;
+  height: auto;
+  margin-top: 200px;
 }
 
 .main-description {
-  margin: 80px;
+  margin: 60px 60px;
   line-height: 1.7;
   font-weight: lighter;
-  text-align: center;
 }
 
 .main-description h3 {
-  font-size: 56px;
-  margin-bottom: 50px;
+  font-size: 42px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.7;
 }
 .main-description p {
   font-size: 36px;
+  opacity: 70%;
 }
 
 .btn-branding {
-  font-size: 36px;
-
-  background: #3d0240;
+  font-size: 20px;
+  box-shadow: 8px 4px 22px rgba(0, 0, 0, 0.2);
+  background: var(--primary-color);
   color: #fff;
   border-radius: 20px;
   padding: 12px 24px;
 }
 
 .btn-branding:hover {
-  color: #b7b7b7;
+  color: var(--secondary-color);
 }
 
 .navigate-button {
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .hero-image {
+    height: 50%;
+  }
+
+  .hero-text {
+    margin-top: 100px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-image {
+    height: 30%;
+  }
+
+  .hero-text {
+    margin-top: 80px;
+  }
+  .main-description h3 {
+    font-size: 28px;
+  }
+  .main-description p {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 24px;
+  }
 }
