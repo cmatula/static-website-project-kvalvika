@@ -87,15 +87,23 @@ h1 {
   font-size: 56px;
 }
 
-.about-section {
-  padding: 0 250px;
+.content-section {
+  padding: 0 150px;
 }
 
-.about-section p {
+.content-section p {
   font-size: 18px;
 }
 
-@media (max-width: 900px) {
+.contact-content {
+  text-align: center;
+}
+
+@media (max-width: 920px) {
+  h1 {
+    font-size: 80px;
+  }
+
   .hero-image {
     height: 50%;
   }
@@ -103,8 +111,9 @@ h1 {
   .hero-text {
     margin-top: 150px;
   }
-  h1 {
-    font-size: 80px;
+
+  .about-section {
+    padding: 0;
   }
 }
 @media (max-width: 760px) {
