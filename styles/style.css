@@ -24,6 +24,21 @@ h1 {
   font-family: "Playfair Display", serif;
 }
 
+footer a {
+  font-size: 26px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 50%;
+  margin: 20px;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+
 .hero-image {
   background: url(/images/main-image.png);
   height: 80%;
@@ -70,10 +85,12 @@ h1 {
   color: #fff;
   border-radius: 20px;
   padding: 12px 24px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-branding:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 .navigate-button {
