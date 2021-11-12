@@ -145,6 +145,10 @@ footer a:hover {
     font-size: 26px;
   }
 
+  .heading-content {
+    margin-bottom: 30px;
+  }
+
   .content-section {
     padding: 0 50px;
   }
@@ -153,26 +157,3 @@ footer a:hover {
     margin-bottom: 40px;
   }
 }
-/* @media (max-width: 760px) {
-  .hero-image {
-    height: 30%;
-  }
-
-  .hero-text {
-    margin-top: 90px;
-  }
-  .main-description h3 {
-    font-size: 28px;
-  }
-  .main-description p {
-    font-size: 16px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-}
-*/
