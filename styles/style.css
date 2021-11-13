@@ -4,7 +4,6 @@
 }
 * {
   margin: 0;
-  padding: 0;
 }
 
 html,
@@ -30,7 +29,7 @@ footer p a {
 
 .hero-image {
   background: url(/images/main-image.png);
-  height: 80%;
+  height: 70%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -133,8 +132,14 @@ footer p a {
 }
 
 @media (max-width: 920px) {
+  .hero-text {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 540px) {
   h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
 
   .hero-image {
@@ -142,7 +147,7 @@ footer p a {
   }
 
   .hero-text {
-    margin-top: 120px;
+    margin-top: 150px;
   }
   .main-description {
     margin: 30px;
