@@ -197,7 +197,7 @@ footer p a {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 370px) {
   h1 {
     font-size: 55px;
   }
