@@ -29,7 +29,7 @@ footer p a {
 
 .hero-image {
   background: url(/images/main-image.png);
-  height: 70%;
+  height: 90%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,11 +42,16 @@ footer p a {
   color: white;
   width: 100%;
   height: auto;
-  margin-top: 200px;
+  margin-top: 220px;
 }
 
 .brand-slogan {
   font-size: 20px;
+}
+
+.hero-btn-branding {
+  color: white;
+  font-size: 32px;
 }
 
 .main-description {
