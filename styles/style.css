@@ -191,3 +191,21 @@ footer p a {
     margin-bottom: 40px;
   }
 }
+
+@media (max-width: 340px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  .hero-image {
+    height: 50%;
+  }
+
+  .hero-text {
+    margin-top: 100px;
+  }
+
+  .contact-content p {
+    font-size: 20px;
+  }
+}
